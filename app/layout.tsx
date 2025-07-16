@@ -23,6 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="icon" href="/favicon.ico" />
         {/* EmailJS script - place here or in a specific component if only used there */}
         <script
           type="text/javascript"

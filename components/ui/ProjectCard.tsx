@@ -26,7 +26,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, onOpenModal }) => {
             {project.cardTitle}
           </span>
         </div>
-        {project.videoSrc && (
+        {(project.videoSrc || project.images) && (
           <button
             onClick={() => onOpenModal(project)}
             className="absolute bottom-3 right-3 bg-dark-blue-3 text-white w-10 h-10 sm:w-12 sm:h-12 rounded-full flex items-center justify-center hover:bg-gold transition-colors shadow-md"
