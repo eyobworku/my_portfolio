@@ -51,13 +51,14 @@ export const projectsData: Project[] = [
       "/projects/blog3.png",
     ],
   },
-  // {
-  //   id: "project4",
-  //   title: "Restaurant Management System",
-  //   cardTitle: "Restaurant Mgmt Sys",
-  //   description: "A comprehensive system for restaurants to manage orders, reservations, and inventory. Includes a customer-facing mobile app and admin dashboard.",
-  //   coverImage: "/projects/image.jpg",
-  //   githubLink: "#",
-  //   liveDemoLink: "#",
-  // },
+  {
+    id: "project4",
+    title: "Dama",
+    cardTitle: "Dama",
+    description: "Ethiopian Board Game with ability to play remotely.",
+    coverImage: "/projects/dama2.png",
+    githubLink: "https://github.com/eyobworku/damaPlayer",
+    liveDemoLink: "https://dama-player.vercel.app",
+    images: ["/projects/dama2.png", "/projects/dama1.png"],
+  },
 ];
